@@ -43,7 +43,7 @@ function App() {
       <Router>
       <Routes>
         
-        <Route path="/about" element={<About />} />
+        <Route path="textutils-app/about" element={<About />} />
         <Route path="/" element={<TextForm heading ="Enter the text to analyze below" showAlert={showAlert} mode={mode}/>} />
         
       </Routes>
